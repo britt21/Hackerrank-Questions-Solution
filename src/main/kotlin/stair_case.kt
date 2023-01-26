@@ -9,8 +9,8 @@ fun staircase(n: Int): Unit {
     /*
     the breakdown:
     **/
-    for (i in 0 .. n){
-        for (b in 0 ..  n - i){
+    for (i in 0 until  n){
+        for (b in 0 until   n - i -1 ){
             print(" ")
 
         }
